@@ -1,4 +1,4 @@
-$(document).ready(function({
+$(document).ready(function(){
 
 	$('#note-form').submit(function(e){
 
@@ -28,4 +28,4 @@ $(document).ready(function({
 	});
 
 
-}));
+});
