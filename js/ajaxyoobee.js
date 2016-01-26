@@ -21,8 +21,7 @@ $(document).ready(function(){
 			error: function(){
 				alert("there was a problem");
 			}
-			timeout: 5000;
-			});
+		});
 		
 	});
 
