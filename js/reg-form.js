@@ -10,10 +10,29 @@ $(document).ready(function(){
 
 		if ( !username || !email || !password) {
 			$('#reg-note').html("Please make sure all fields have been filled");
+
 			return;
 		}
 
-		
+		$.ajax({
+
+			type: "POST",
+			url: "http://sarah.lyne.yoobee.net.nz/ajax_yoobee/ajaxyoobee.php",
+			data: {
+				username: username,
+				email: email,
+				password: password,
+			},
+			success: function(serverData){
+
+			},
+			error: function(){
+
+			},
+
+		});
+
+
 	})
 
 });
