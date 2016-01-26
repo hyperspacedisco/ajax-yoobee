@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	$('#register-popup').submit(function(e){
 
-		e.preventDefault();
+		
 
 		var username = $('#username').val();
 		var email = $('#email').val();
@@ -24,7 +24,7 @@ $(document).ready(function(){
 				password: password,
 			},
 			success: function(serverData){
-					
+
 			},
 			error: function(){
 
