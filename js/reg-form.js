@@ -24,7 +24,7 @@ $(document).ready(function(){
 				password: password,
 			},
 			success: function(serverData){
-
+				console.log(serverData);
 			},
 			error: function(){
 
